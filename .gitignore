@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+
+# Environment variables
+.env
+.env.*
+
+# Prefect
+.prefect/
+prefect.db
+
+# MLflow
+mlruns/
+mlartifacts/
+
+# Generated models
+*.joblib
+*.pkl
+
+# Temporary files
+*.log
+
+# IDE
+.vscode/
